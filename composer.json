@@ -1,0 +1,20 @@
+{
+  "name": "dnsresearchfederation/dap-api-php",
+  "version": "0.1",
+  "description": "DAP API",
+  "keywords": [
+    "PHP",
+    "intelligence",
+    "data analysis"
+  ],
+  "type": "application",
+  "require": {
+    "oxil/kinikit-core": "dev-master"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "DAP\\API\\": "src/"
+    }
+  }
+}
